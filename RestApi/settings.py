@@ -141,3 +141,4 @@ This means that for all the views and endpoints that are part of this REST Frame
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': ('knox.auth.TokenAuthentication',),
 }
+CSRF_TRUSTED_ORIGINS = ['https://web-production-6d3f.up.railway.app/']

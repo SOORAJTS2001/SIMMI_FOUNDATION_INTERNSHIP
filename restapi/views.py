@@ -6,7 +6,7 @@ The get_user view is used to retrieve the currently authenticated user's informa
 The knox package is used for handling authentication and token management. The AuthToken class is used to create authentication tokens for the API. The TokenAuthentication class is used to authenticate users based on tokens.
 The serialize_user is a helper function used to convert the user instance into a serializable format (Dictionary).
 '''
-from django.shortcuts import render
+
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework.authtoken.serializers import AuthTokenSerializer
